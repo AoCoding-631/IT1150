@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.parallax{
+    background-image:url('css/images/bukhoor.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title{
+    background:rgba(0, 0, 0, 0, 5);
+    text-align: center;
+    color: white;
+    padding:50px;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 20px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navigation{
+    background:#7e6761ef;
+    opacity: 0.7;
+    text-align: center;
+}
+.nav-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.nav-ul li{
+    color:cornsilk;
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px ;
+}
+.a-nav{
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+}
+.nav-ul li:hover{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.837);
+
+}
+.container{
+    background-image: cornsilk;
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:rgba(0, 0, 0, 0, 5);
+
+}
+img{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.paragraph{
+    text-align: center;
+    border: 3px double black;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 40px;
+    background: cornsilk;
+}
+.footer {
+    position:inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #745f59;;
+    color: white;
+    text-align: center;
+}
