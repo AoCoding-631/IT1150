@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BeautyFace Emoji Maker</title>
+    <style>
+    .faceoverlap{
+        position: absolute;
+        height:900px;
+        width:860px;
+        top:0px;
+        left: 0px;
+    }
+    
+    .facecontainer{
+        position:relative; 
+        height:900px;
+        width:860px;
+        border: solid blue 4px;
+    }
+    </style>
+</head>
+<body>
+    <h1>ScaryFace Emoji Maker</h1>
+    <hr>
+
+    <div id="neatocolor">
+        <p>This is an emoji face maker. Create a face for fun.</p>
+
+        <div class="facecontainer centered">
+            <img class="faceoverlap" src="images/yc.png">
+
+            <img class="faceoverlap" id="jewel" src="images/Transparent/fjt1.png">
+           
+
+            <img class="faceoverlap" id="lips"  src="images/Transparent/lip1t.png">
+           
+
+            <img class="faceoverlap" id="eyes"  src="images/Transparent/e1t.png">
+        
+
+        
+
+        </div>
+    </div>
+
+    <hr>
+    <button onclick=eyes_1()>brown eyes</button>
+    <button onclick=eyes_2()>blue eyes</button>
+    <button onclick=eyes_3()>green eyes</button>
+
+    <button onclick=lips_1()>pouty smile</button>
+    <button onclick=lips_2()>laughing smile</button>
+    <button onclick=lips_3()>sweet smile</button>
+
+    <button onclick=jewel_1()>heart decal</button>
+    <button onclick=jewel_2()>tear decal</button>
+    <button onclick=jewel_3()>rainbow decal</button>
+    <button onclick=jewel_4()>cloud decal</button>
+    <button onclick=jewel_5()>100 decal</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
